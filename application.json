@@ -1,11 +1,7 @@
 {
   "pages": [
     {
-      "id": "Guest List",
-      "isDefault": false
-    },
-    {
-      "id": "Sheet1",
+      "id": "Guest Information",
       "isDefault": false
     },
     {
@@ -14,10 +10,6 @@
     },
     {
       "id": "Inspiration",
-      "isDefault": false
-    },
-    {
-      "id": "Charts",
       "isDefault": false
     }
   ],

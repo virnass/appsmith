@@ -1,0 +1,5 @@
+{"messages": [{"role": "user", "content": GenAI.text
+    }
+  ],
+  "model": "llama3-8b-8192"
+}

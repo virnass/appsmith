@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Inspiration",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Inspiration_JSObject1",
+  "deleted": false,
+  "gitSyncId": "666a6ed392c666643701c6f3_dd309429-86c1-49bd-9500-db0931f3cf7a"
+}
