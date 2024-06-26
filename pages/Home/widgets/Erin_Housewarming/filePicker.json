@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08ce7590c570fc5b7ffa528c70d35bf.svg",
-    "topRow": 15,
+    "topRow": 16,
     "type": "FILE_PICKER_WIDGET_V2",
     "allowedFileTypes": ["image/*"],
     "animateLoading": true,
@@ -33,7 +33,7 @@
     "buttonColor": "#e0dede",
     "displayName": "FilePicker",
     "searchTags": ["upload"],
-    "bottomRow": 19,
+    "bottomRow": 20,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 42,

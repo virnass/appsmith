@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 44,
-    "onClick": "{{storeValue('creatorNameStore', creatorName.text);\nstoreValue('eventTitle', eventTitle.text);\nnavigateTo('Guest Information', {}, 'SAME_WINDOW');\nstoreValue('eventLocationStore', Event_Location.text);\nstoreValue('DatePicker1Store', DatePicker1.selectedDate);}}",
+    "onClick": "{{navigateTo('Guest Information', {}, 'SAME_WINDOW');\nstoreValue('descriptionStore', Event_Description.text);}}",
     "widgetName": "Invite_Button",
     "buttonColor": "#f9a8d4",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",

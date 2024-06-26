@@ -10,7 +10,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 10,
+    "bottomRow": 12,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Here are some other websites to help you create the best vibes for {{appsmith.store.creatorName}}'s {{appsmith.store.eventTitle}}: ",
+    "text": "Here are some other websites to help you create the best vibes for {{appsmith.store.nameStore}}'s {{appsmith.store.eventStore}}: ",
     "key": "36kb5sne29",
     "isDeprecated": false,
     "rightColumn": 60,
@@ -61,7 +61,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 12,
+    "originalBottomRow": 10,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

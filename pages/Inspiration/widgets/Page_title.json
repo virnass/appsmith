@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.store.eventTitle}}  Inspiration",
+    "text": "{{appsmith.store.eventStore}} Inspiration",
     "key": "f0j61jav9z",
     "isDeprecated": false,
     "rightColumn": 28,

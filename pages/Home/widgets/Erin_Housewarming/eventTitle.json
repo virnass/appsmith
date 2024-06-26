@@ -14,7 +14,7 @@
     ],
     "labelStyle": "",
     "inputType": "TEXT",
-    "placeholderText": "Untitled Event",
+    "placeholderText": "Unitled Event",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
@@ -52,10 +52,14 @@
     "hideCard": false,
     "mobileRightColumn": 18,
     "parentColumnSpace": 12.8603515625,
-    "dynamicTriggerPathList": [{"key": "onBlur"}],
+    "dynamicTriggerPathList": [
+        {"key": "onBlur"},
+        {"key": "onTextChanged"}
+    ],
     "labelPosition": "Left",
     "key": "apo3xl7hmn",
     "labelTextSize": "0.875rem",
+    "onTextChanged": "{{storeValue('descriptionStore', Event_Description.text);}}",
     "isDeprecated": false,
     "rightColumn": 43,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
@@ -72,6 +76,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{ appsmith.store.eventTitle || '' }}",
+    "defaultText": "{{appsmith.store.eventStore || '' }}",
     "minDynamicHeight": 4
 }
