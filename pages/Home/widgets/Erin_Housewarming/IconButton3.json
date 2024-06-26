@@ -1,51 +1,61 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 58,
-    "widgetName": "IconButton3",
-    "onClick": "{{storeValue('DatePickerStore', DatePicker1.selectedDate || '');}}",
-    "buttonColor": "#f9a8d4",
-    "displayName": "Icon button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e5045469a82b76384d0c537fc9545012.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 54,
-    "bottomRow": 58,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 49,
-    "animateLoading": true,
-    "parentColumnSpace": 11.458984375,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 45,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "isDisabled": false,
-    "key": "17duruk51y",
-    "isDeprecated": false,
-    "rightColumn": 49,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-    "iconName": "tick-circle",
-    "widgetId": "t2lgg2nrtq",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-    },
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "83xzqnwgx7",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 54,
-    "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 45,
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "buttonColor": "#f9a8d4",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "tick-circle",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e5045469a82b76384d0c537fc9545012.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "17duruk51y",
+  "leftColumn": 45,
+  "minWidth": 50,
+  "mobileBottomRow": 58,
+  "mobileLeftColumn": 45,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 54,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onClick": "{{storeValue('DatePickerStore', DatePicker1.selectedDate || '');}}",
+  "parentColumnSpace": 11.458984375,
+  "parentId": "83xzqnwgx7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 49,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
+  "topRow": 54,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "t2lgg2nrtq",
+  "widgetName": "IconButton3"
 }
